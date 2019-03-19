@@ -13,8 +13,8 @@ The approach was to first split dataset into trainset of 70% and testset of 30%,
 respective lags of 1 day, 1 week, 1 month and 1 year, and evaluate the respective Root Mean Square Error (RMSE).
 A percentage of error of model is calculated by dividing RMSE with the mean of dataset values.
 
-Seasonal decomposition and Stationary tests are conducted on dataset to find out if there are trends or seasonal
-effects on dataset and if the dataset is Stationary. The results: there are trends and seasonal effects, dataset is 
+Seasonal decomposition and stationary tests are conducted on dataset to find out if there are trends or seasonal
+effects on dataset and if the dataset is stationary. The results: there are trends and seasonal effects, dataset is 
 non-stationary and has high auto-correlations with its lag values.
 
 Dataset is converted to stationary by differencing the daily levels and scaled to range of -1 to 1.
